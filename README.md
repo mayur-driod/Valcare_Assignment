@@ -27,10 +27,6 @@ Features validation, conflict prevention, fee calculation.
     * Supports **pagination & sorting**
   * `GET /reservations/{id}` → Fetch reservation details
   * `DELETE /reservations/{id}` → Cancel a reservation
-* **Optimistic Locking**: Protects against concurrent booking conflicts
-* **Validation & Global Exception Handling**
-* **Interactive API docs** via Swagger UI
-
 ---
 
 ## Tech Stack
@@ -41,7 +37,7 @@ Features validation, conflict prevention, fee calculation.
 * **H2 Database** (in-memory, dev)
 * **Jakarta Validation** (`@Valid`, constraints)
 * **Lombok** (for boilerplate reduction)
-* **Springdoc OpenAPI** (Swagger UI) // Still being implemented.
+* **Springdoc OpenAPI** (Swagger UI)  (Still being implemented).
 
 ---
 
@@ -93,7 +89,7 @@ Here you can explore, test endpoints, and see example payloads.
 
 ---
 
-## 🚦 Endpoints Overview
+## Endpoints Overview
 
 ### 1. Floors
 
